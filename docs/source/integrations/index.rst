@@ -179,6 +179,13 @@ on the cards below to see how!
     :tags: Brain,Embeddings,Models
 
 .. customcarditem::
+    :header: VideoDB
+    :description: Use our VideoDB integration to add timestamped transcripts and scene descriptions to your video datasets.
+    :link: videodb.html
+    :image: ../_images/activitynet_evaluate_detections.png
+    :tags: Models
+
+.. customcarditem::
     :header: Albumentations
     :description: Use our Albumentations integration to test out data augmentation transformations in real-time on your FiftyOne datasets.
     :link: albumentations.html
@@ -253,6 +260,7 @@ on the cards below to see how!
     Hugging Face <huggingface.rst>
     Ultralytics <ultralytics.rst>
     TwelveLabs <twelvelabs.rst>
+    VideoDB <videodb.rst>
     Albumentations <albumentations.rst>
     SuperGradients <super_gradients.rst>
     OpenCLIP <openclip.rst>

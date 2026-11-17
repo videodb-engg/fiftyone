@@ -72,6 +72,50 @@
             "tags": ["video", "caption", "official"],
             "training_data": null,
             "date_added": "2026-06-25 10:31:00"
+        },
+        {
+            "base_name": "videodb-transcript",
+            "base_filename": null,
+            "version": null,
+            "description": "VideoDB spoken words analyzer, which transcribes the speech in a video into timed transcript segments with word-level timing and speaker labels",
+            "source": "https://videodb.io",
+            "author": "Spext Labs Inc.",
+            "license": "https://videodb.io/legal/terms",
+            "size_bytes": null,
+            "default_deployment_config_dict": {
+                "type": "fiftyone.utils.videodb.VideoDBModel",
+                "config": {
+                    "operation": "transcribe"
+                }
+            },
+            "requirements": {
+                "packages": ["videodb>=0.5.1"]
+            },
+            "tags": ["video", "transcription", "temporal-detection"],
+            "training_data": null,
+            "date_added": "2026-11-17 12:00:00"
+        },
+        {
+            "base_name": "videodb-scene-descriptions",
+            "base_filename": null,
+            "version": null,
+            "description": "VideoDB vision-language analyzer, which splits a video into scenes and describes each scene in natural language, optionally following a custom prompt and output schema",
+            "source": "https://videodb.io",
+            "author": "Spext Labs Inc.",
+            "license": "https://videodb.io/legal/terms",
+            "size_bytes": null,
+            "default_deployment_config_dict": {
+                "type": "fiftyone.utils.videodb.VideoDBModel",
+                "config": {
+                    "operation": "describe"
+                }
+            },
+            "requirements": {
+                "packages": ["videodb>=0.5.1"]
+            },
+            "tags": ["video", "vlm", "caption", "temporal-detection"],
+            "training_data": null,
+            "date_added": "2026-11-17 12:00:00"
         }
     ]
 }

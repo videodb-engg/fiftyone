@@ -117,7 +117,7 @@ _MODEL_TEMPLATE = """
         .set_field("frames.gt_detections", None)
         .save()
     )
-{% elif 'twelvelabs' in name %}
+{% elif 'twelvelabs' in name or 'videodb' in name %}
     dataset = foz.load_zoo_dataset("quickstart-video")
 {% else %}
     dataset = foz.load_zoo_dataset(
